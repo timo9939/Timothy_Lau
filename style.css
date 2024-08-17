@@ -1,0 +1,44 @@
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul {
+  list-style: none;
+}
+
+
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  padding: 0vw 5vw;
+  background-color: aliceblue;
+  margin: 0;
+}
+
+/* Nav Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+nav ul{
+    right: 0;
+    display: flex;
+    gap: 10vw;
+    justify-content: space-between;
+}
+
+
+/* About Me */
+#About-me{
+    background-color: antiquewhite;
+display: flex;
+gap: 10vw;
+
+}
+
+.profile_picture{
+    max-width: 20vw;
+    border-radius: 50vh;
+}
+
